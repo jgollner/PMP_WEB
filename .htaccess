@@ -1,0 +1,95 @@
+# $Id: .htaccess,v 1.3 2003/06/12 10:53:20 hpdl Exp $
+#
+# This is used with Apache WebServers
+#
+# For this to work, you must include the parameter 'Options' to
+# the AllowOverride configuration
+#
+# Example:
+#
+# <Directory "/usr/local/apache/htdocs">
+#   AllowOverride Options
+# </Directory>
+#
+# 'All' with also work. (This configuration is in the
+# apache/conf/httpd.conf file)
+
+# The following makes adjustments to the SSL protocol for Internet
+# Explorer browsers
+
+<IfModule mod_setenvif.c>
+  <IfDefine SSL>
+    SetEnvIf User-Agent ".*MSIE.*" \
+             nokeepalive ssl-unclean-shutdown \
+             downgrade-1.0 force-response-1.0
+  </IfDefine>
+</IfModule>
+
+# Fix certain PHP values
+# (commented out by default to prevent errors occuring on certain servers)
+
+
+#Add this to the .htaccess file to show errors on the rackspace server.
+#Error reporting ON
+#php_flag display_errors 1
+#php_value error_reporting 2047
+
+
+
+RewriteEngine on
+RewriteBase /pmp/
+
+#MENU
+RewriteRule ^home$ index.php?section=c.main.php
+
+RewriteRule ^whatwedo$ index.php?section=c.whatwedo.php
+
+RewriteRule ^team$ index.php?section=c.team.php
+RewriteRule ^bio1$ index.php?section=c.team_bio1.php
+RewriteRule ^bio2$ index.php?section=c.team_bio2.php
+RewriteRule ^bio3$ index.php?section=c.team_bio3.php
+RewriteRule ^bio4$ index.php?section=c.team_bio4.php
+RewriteRule ^bio5$ index.php?section=c.team_bio5.php
+RewriteRule ^bio6$ index.php?section=c.team_bio6.php
+RewriteRule ^bio7$ index.php?section=c.team_bio7.php
+RewriteRule ^bio8$ index.php?section=c.team_bio8.php
+RewriteRule ^bio9$ index.php?section=c.team_bio9.php
+RewriteRule ^bio10$ index.php?section=c.team_bio10.php
+RewriteRule ^bio11$ index.php?section=c.team_bio11.php
+RewriteRule ^bio12$ index.php?section=c.team_bio12.php
+RewriteRule ^bio13$ index.php?section=c.team_bio13.php
+RewriteRule ^bio14$ index.php?section=c.team_bio14.php
+RewriteRule ^bio15$ index.php?section=c.team_bio15.php
+RewriteRule ^bio16$ index.php?section=c.team_bio16.php
+RewriteRule ^bio17$ index.php?section=c.team_bio17.php
+RewriteRule ^bio18$ index.php?section=c.team_bio18.php
+RewriteRule ^bio19$ index.php?section=c.team_bio19.php
+
+RewriteRule ^projects$ index.php?section=c.projects.php
+RewriteRule ^commercial_residential$ index.php?section=c.commercial_residential.php
+RewriteRule ^educational_institutional$ index.php?section=c.educational_institutional.php
+RewriteRule ^industrial_warehouse$ index.php?section=c.industrial_warehouse.php
+RewriteRule ^institutional$ index.php?section=c.institutional.php
+RewriteRule ^medical_institutional$ index.php?section=c.medical_institutional.php
+RewriteRule ^office_commercial_govt$ index.php?section=c.office_commercial_govt.php
+RewriteRule ^recreational$ index.php?section=c.recreational.php
+RewriteRule ^residential$ index.php?section=c.residential.php
+RewriteRule ^tenant_improvements$ index.php?section=c.tenant_improvements.php
+
+RewriteRule ^comm_res003$ index.php?section=c.comm_res003.php
+
+RewriteRule ^news$ index.php?section=c.news.php
+RewriteRule ^news1$ index.php?section=c.news1.php
+RewriteRule ^news2$ index.php?section=c.news2.php
+RewriteRule ^news3$ index.php?section=c.news3.php
+RewriteRule ^news4$ index.php?section=c.news4.php
+
+RewriteRule ^story$ index.php?section=c.story.php
+
+RewriteRule ^contact$ index.php?section=c.contact.php
+
+RewriteRule ^careers$ index.php?section=c.careers.php
+RewriteRule ^partner$ index.php?section=c.partner.php
+RewriteRule ^thankyou$ index.php?section=c.thankyou.php
+
+

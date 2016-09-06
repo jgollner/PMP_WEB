@@ -1,0 +1,448 @@
+
+
+h1 {
+	font-family: 'Source Sans Pro';
+	font-size: 14pt;
+	color:#333;
+	font-weight: 400;
+	line-height: 1.2em;
+	}
+
+h2 {
+	font-family: 'Source Sans Pro';
+	font-size: 19pt;
+	color:#333;
+	font-weight: 300;
+	text-transform: uppercase;
+	}
+
+h3 {
+	font-family: 'Source Sans Pro';
+	font-size: 35pt;
+	color:#333;
+	font-weight: 300;
+	text-transform: uppercase;
+	}
+
+
+
+p {
+	font-family: 'Source Sans Pro';
+	font-size: 11pt;
+	color:#333;
+	font-weight: 300;
+	line-height: 1.3em;
+	}
+
+.listoverflow
+{
+	height: 50vh;
+}
+.ui-selectmenu-text {
+	text-transform: uppercase;
+}
+.ui-state-focus
+{
+	border: 1px solid #F1836E !important;
+}
+
+@media only screen and (max-width: 50em) {
+	.ui-selectmenu-button {
+		width: 80vw !important;
+		margin-left: auto;
+		margin-right: auto;
+		display: block !important;
+	}
+}
+
+.ui-state-default
+{
+	background: #ffffff !important;
+	border: 1px solid #F1836E !important;
+}
+
+#section001 {
+	width: 100%;
+	/*height: 110vh;*/
+	/*background-color: #fff;*/
+	margin: 0px auto;
+	padding-top: 100px;
+	
+	}
+
+
+#section001 b {
+
+}
+
+.s-left {
+	width: 100%;
+	height: 5vh;
+	padding: 0% 0% 0% 10%;
+	/*min-width: 230px;*/
+}
+
+.s-left:hover {
+
+}
+
+.s-right {
+	width: 100%;
+	height: 30vh;
+	float: left;
+	padding: 0% 0% 0% 10%;
+}
+
+.s-r-content {
+	width: 100%;
+	margin: 0px auto 0;
+	height: 100%;
+	text-align: left;
+	padding: 50px 80px;
+	border: 1px solid #ddd;
+	background-color: #fff;
+}
+@media only screen and (min-width: 780px) {
+	.s-r-content {
+		padding: 50px 100px;
+	}
+	
+}
+
+
+.s-l-content {
+	width: 100%;
+	margin: ;
+	height: 50px;
+	/*border: 1px solid #f2f2f2;*/
+	/*border-bottom: 1px solid #f2f2f2;*/
+	padding: 4%;
+	text-transform: uppercase;
+}
+
+.slick-slider {
+	margin: 25px;
+	/*height: 100vh;*/
+}
+
+.slick-list {
+	padding-bottom: 10px !important;
+}
+
+.slick-dots {
+	margin-bottom: 20px !important;
+}
+
+
+.s-r-title {
+	margin: ;
+	/*border: 1px solid #f2f2f2;*/
+	padding: 2%;
+	
+}
+
+.s-r-number {
+	float: right;
+	/*width: 15%;*/
+	padding:1%;
+}
+
+
+
+li {
+	line-height: 2em;
+	font-weight: 300;
+	text-transform: uppercase;
+	font-size: 11pt;
+	padding: 0 1%;
+	}
+
+#section001 li:hover {
+	opacity: .5;
+	cursor: pointer;
+}
+
+
+#section001 li b {
+	margin-right: 10px;
+}
+
+#section001 li a b {
+	font-weight: 400;
+}
+
+#section001 small {
+	float: right;
+}
+
+.menu {
+	margin: 20px 0;
+}
+
+
+/*----------------------------------------*/
+/*----------------------------------------*/
+/*----------------------------------------*/
+/*----------------------------------------*/
+		/*---- MEDIUM SCREEN ---*/
+/*----------------------------------------*/
+/*----------------------------------------*/
+/*----------------------------------------*/
+/*----------------------------------------*/
+
+
+@media only screen and (min-width: 50em) and (max-width: 65em) {
+
+
+.listoverflow
+{
+	height: 50vh;
+}
+.ui-selectmenu-text {
+	text-transform: uppercase;
+}
+.ui-selectmenu-button {
+	width: 50vw !important;
+	margin-left: 30px;
+    /*display: block !important;*/
+}
+.ui-state-default
+{
+	background: #ffffff !important;
+	border: 1px solid #F1836E !important;
+}
+
+#section001 {
+	width: 90%;
+	/*height: 80vh;*/
+	margin: 50px auto;
+/*	display: inline-block;*/
+}
+
+
+.s-left {
+	width: 30%;
+	height: 30vh;
+	/*background-color: #212121;*/
+	float: left;
+	padding: 3%;
+	/*min-width: 230px;*/
+}
+
+.s-right {
+	width: 70%;
+	height: 30vh;
+	/*background-color: #191919;		*/
+	float: left;
+	padding: 3%;
+}
+
+.s-r-content {
+	width: 100%;
+	margin: ;
+	height: 100%;
+	/*padding-left: 40px;*/
+
+}
+
+
+
+.s-l-content {
+	width: 100%;
+	margin: ;
+	padding: 4%;
+	height: 100%;
+}
+
+
+.s-r-number {
+	float: right;
+	width: 15%;
+	padding:1%;
+	margin-right: 20px;
+}
+
+
+.landing-title {
+
+}
+
+
+#section001 li {
+	line-height: 1.5em;
+	font-weight: 300;
+	text-transform: uppercase;
+	font-size: 9pt;
+	padding: 0 5%;
+
+}
+
+#section001 li b {
+	margin-right: 5px;
+}
+
+#section001 li a b {
+	font-weight: 400;
+}
+
+#section001 small {
+	float: right;
+}
+
+.menu {
+	margin: 20px 0;
+}
+/*
+#landing h2 {
+	font-size: 25pt;
+	font-family: 'Exo';
+	color:#fff;
+	font-weight: 100;
+	}
+*/
+
+.slick-slider {
+	margin: 25px;
+}
+
+.slick-list {
+	padding-bottom: 30px !important;
+}
+
+.slick-dots {
+	margin-bottom: 20px !important;
+}
+
+
+}
+
+
+
+/*----------------------------------------*/
+/*----------------------------------------*/
+/*----------------------------------------*/
+/*----------------------------------------*/
+		/*---- LARGE SCREEN ---*/
+/*----------------------------------------*/
+/*----------------------------------------*/
+/*----------------------------------------*/
+/*----------------------------------------*/
+
+
+@media only screen and (min-width: 60em) {
+
+
+.listoverflow
+{
+	height: 50vh;
+}
+.ui-selectmenu-text {
+	text-transform: uppercase;
+}
+.ui-selectmenu-button {
+	width: 30vw !important;
+    /*display: block !important;*/
+}
+.ui-state-default
+{
+	background: #ffffff !important;
+	border: 1px solid #F1836E !important;
+}
+
+
+#section001 {
+	width: 60%;
+	/*height: 80vh;*/
+	margin: 50px auto;
+	display: block;
+}
+
+
+.s-left {
+	width: 30%;
+	height: 30vh;
+	float: left;
+	padding: 3%;
+	max-width: 300px;
+
+	
+}
+
+.s-right {
+	width: 70%;
+	height: 30vh;
+	float: left;
+	padding: 3%;
+}
+
+.s-r-content {
+	width: 100%;
+	margin: ;
+	height: 100%;
+	/*padding-left: 25%;*/
+}
+
+
+.s-l-content {
+	width: 100%;
+	margin: ;
+	height: 50px;
+	padding: 5% 3%;
+}
+
+.s-r-title {
+	margin: ;
+	padding:2%;
+}
+
+.s-r-number {
+	float: left;
+	width: 10%;
+	padding:1%;
+	margin-right: 30px;
+
+}
+
+h3 {
+	font-size: 45pt;
+	font-weight: 400;
+}
+
+
+
+#section001 li {
+	line-height: 2em;
+	font-weight: 300;
+	text-transform: uppercase;
+	font-size: 9pt;
+	padding: 0 5%;
+
+}
+
+#section001 li b {
+	margin-right: 5px;
+}
+
+#section001 li a b {
+	font-weight: 400;
+}
+
+#section001 small {
+	float: right;
+}
+
+.menu {
+	margin: 20px 0;
+}
+
+
+.slick-list {
+	padding-bottom: 10px !important;
+}
+
+.slick-dots {
+	margin-bottom: 10px !important;
+}
+
+}
+
